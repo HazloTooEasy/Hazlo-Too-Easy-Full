@@ -10,7 +10,7 @@ function CTASection() {
       {/* Unified Astronaut Background with Premium Entry */}
       <motion.div
         initial={{ opacity: 0, scale: 1.05 }}
-        whileInView={{ opacity: 1, scale: 1 }}
+        whileInView={{ opacity: 0.8, scale: 1 }}
         transition={{ duration: 2, ease: "easeOut" }}
         viewport={{ once: true }}
         className="absolute inset-0 z-0"
@@ -20,7 +20,7 @@ function CTASection() {
           alt="Astronaut floating over the moon"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#030303] via-transparent to-[#030303] z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#030303] via-transparent to-transparent z-10" />
       </motion.div>
 
       {/* Explicit Top Fade for Section Transition */}
